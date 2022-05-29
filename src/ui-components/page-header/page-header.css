@@ -1,0 +1,23 @@
+.page-header-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 15vh;
+    background-color: #ebf2fc;
+}
+
+.nav-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pager-header-logo {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.nav-link {
+    padding: 5px;
+}

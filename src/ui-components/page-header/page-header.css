@@ -16,6 +16,9 @@
 .pager-header-logo {
     font-size: 25px;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-link {

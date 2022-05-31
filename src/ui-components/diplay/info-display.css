@@ -1,0 +1,9 @@
+.info-display-container {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.display-title {
+    font-weight: 700;
+}

@@ -31,9 +31,14 @@ const alertLog = () => {
 }
 
 const primaryLog = () => {
-    console.log("Primary")
-}
-
+    fetch('https://localhost:7085/expenses', {
+        mode: 'cors', 
+        credentials: 'same-origin', 
+        referrerPolicy: 'same-origin', 
+      })
+      .then(res => res.json())
+      .then(data => console.log(data))
+    }
 const Home = () => {
     return (
         <div>
